@@ -7,5 +7,6 @@
 # Note
 - the defualt client request here is the image path '/home/fatma/AUV_ws/src/frame112.jpg'
 - to run the client node with your image path request:\
-1-open new terminal then source the workspace (. install/setup.bash)\
-2-ros2 run gate_detection client <img_path>
+1-open two terminals then source the workspace (. install/setup.bash)\
+2-first terminal run service node (ros2 run gate_detection service)
+3-second terminal to run client node (ros2 run gate_detection client <img_path>)
