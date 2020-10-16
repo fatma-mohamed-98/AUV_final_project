@@ -1,0 +1,2 @@
+Invoking command in '/home/fatma/AUV_ws/build/interface': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/fatma/AUV_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/fatma/AUV_ws/install/interface
+Invoked command in '/home/fatma/AUV_ws/build/interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/fatma/AUV_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/fatma/AUV_ws/install/interface

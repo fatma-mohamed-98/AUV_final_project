@@ -1,0 +1,25 @@
+[0.344s] Invoking command in '/home/fatma/AUV_ws/src/gate_detection': PYTHONPATH=/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/gate_detection build --build-base /home/fatma/AUV_ws/build/gate_detection/build install --prefix /home/fatma/AUV_ws/install/gate_detection --record /home/fatma/AUV_ws/build/gate_detection/install.log --single-version-externally-managed
+[0.632s] running egg_info
+[0.633s] writing ../../build/gate_detection/gate_detection.egg-info/PKG-INFO
+[0.633s] writing dependency_links to ../../build/gate_detection/gate_detection.egg-info/dependency_links.txt
+[0.634s] writing entry points to ../../build/gate_detection/gate_detection.egg-info/entry_points.txt
+[0.634s] writing requirements to ../../build/gate_detection/gate_detection.egg-info/requires.txt
+[0.634s] writing top-level names to ../../build/gate_detection/gate_detection.egg-info/top_level.txt
+[0.675s] reading manifest file '../../build/gate_detection/gate_detection.egg-info/SOURCES.txt'
+[0.677s] writing manifest file '../../build/gate_detection/gate_detection.egg-info/SOURCES.txt'
+[0.678s] running build
+[0.678s] running build_py
+[0.678s] copying gate_detection/server_node.py -> /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection
+[0.678s] running install
+[0.679s] running install_lib
+[0.680s] copying /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection/server_node.py -> /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection
+[0.681s] byte-compiling /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/server_node.py to server_node.cpython-36.pyc
+[0.684s] running install_data
+[0.685s] running install_egg_info
+[0.687s] removing '/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection-0.0.0-py3.6.egg-info' (and everything under it)
+[0.688s] Copying ../../build/gate_detection/gate_detection.egg-info to /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection-0.0.0-py3.6.egg-info
+[0.689s] running install_scripts
+[0.712s] Installing client script to /home/fatma/AUV_ws/install/gate_detection/lib/gate_detection
+[0.712s] Installing service script to /home/fatma/AUV_ws/install/gate_detection/lib/gate_detection
+[0.713s] writing list of installed files to '/home/fatma/AUV_ws/build/gate_detection/install.log'
+[0.748s] Invoked command in '/home/fatma/AUV_ws/src/gate_detection' returned '0': PYTHONPATH=/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/gate_detection build --build-base /home/fatma/AUV_ws/build/gate_detection/build install --prefix /home/fatma/AUV_ws/install/gate_detection --record /home/fatma/AUV_ws/build/gate_detection/install.log --single-version-externally-managed

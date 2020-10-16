@@ -1,0 +1,2 @@
+
+string gate_location

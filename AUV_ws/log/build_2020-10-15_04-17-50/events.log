@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (-) JobUnselected: {'identifier': 'gate_detection'}
+[0.000910] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001793] (-) EventReactorShutdown: {}

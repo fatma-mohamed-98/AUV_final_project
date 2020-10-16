@@ -1,0 +1,5 @@
+  File "/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/client_node.py", line 1
+    from tutorial_interfaces.srv import     # CHANGE
+                                                   ^
+SyntaxError: invalid syntax
+

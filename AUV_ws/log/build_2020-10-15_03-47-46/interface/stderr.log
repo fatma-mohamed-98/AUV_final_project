@@ -1,0 +1,33 @@
+CMake Error: Could not find cmake module file: CMakeDetermineprojectCompiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_project_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_project_COMPILER
+CMake Error: Could not find cmake module file: /home/fatma/AUV_ws/build/interface/CMakeFiles/3.14.3/CMakeprojectCompiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_project_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_project_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMakeprojectInformation.cmake
+CMake Error: CMAKE_project_COMPILER not set, after EnableLanguage
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/local/bin/cmake', '--build', '/home/fatma/AUV_ws/build/interface', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

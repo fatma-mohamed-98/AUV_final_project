@@ -1,0 +1,5 @@
+  File "/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/server_node.py", line 144
+    self.x_center= 0.5*self.x_arr[bindx]0.5*self.x_arr[indx2]
+                                          ^
+SyntaxError: invalid syntax
+

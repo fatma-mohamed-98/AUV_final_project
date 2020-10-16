@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/fatma/AUV_ws/build/interface': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/fatma/AUV_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/fatma/AUV_ws/install/interface
+[0.062s] CMake Error: Could not find cmake module file: CMakeDetermineprojectCompiler.cmake
+[0.062s] CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.062s] Missing variable is:
+[0.062s] CMAKE_project_COMPILER_ENV_VAR
+[0.062s] CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.063s] Missing variable is:
+[0.063s] CMAKE_project_COMPILER
+[0.063s] CMake Error: Could not find cmake module file: /home/fatma/AUV_ws/build/interface/CMakeFiles/3.14.3/CMakeprojectCompiler.cmake
+[0.068s] CMake Error at CMakeLists.txt:2 (project):
+[0.068s]   No CMAKE_project_COMPILER could be found.
+[0.068s] 
+[0.069s]   Tell CMake where to find the compiler by setting the CMake cache entry
+[0.069s]   CMAKE_project_COMPILER to the full path to the compiler, or to the compiler
+[0.069s]   name if it is in the PATH.
+[0.069s] 
+[0.070s] 
+[0.070s] CMake Error: Could not find cmake module file: CMakeprojectInformation.cmake
+[0.070s] CMake Error: CMAKE_project_COMPILER not set, after EnableLanguage
+[0.070s] -- Configuring incomplete, errors occurred!
+[0.071s] See also "/home/fatma/AUV_ws/build/interface/CMakeFiles/CMakeOutput.log".
+[0.072s] Invoked command in '/home/fatma/AUV_ws/build/interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/fatma/AUV_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/fatma/AUV_ws/install/interface
+[0.149s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/local/bin/cmake', '--build', '/home/fatma/AUV_ws/build/interface', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

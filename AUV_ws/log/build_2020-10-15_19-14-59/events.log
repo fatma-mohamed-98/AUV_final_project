@@ -1,0 +1,360 @@
+[0.000000] (-) TimerEvent: {}
+[0.000558] (-) JobUnselected: {'identifier': 'gate_detection'}
+[0.001001] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001277] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.019576] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.046152] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.047938] (interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/fatma/AUV_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/fatma/AUV_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fatma'), ('LC_TIME', 'ar_EG.UTF-8'), ('TEXTDOMAIN', 'gdm'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1586'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/fatma/AUV_ws/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/fatma'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/fatma'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/fatma/.nvm'), ('_colcon_cd_root', '/home/fatma/ros2_install'), ('COLCON_PREFIX_PATH', '/home/fatma/AUV_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'fatma'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '103369dc8361658bbf160276171121399600000010850007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'fatma'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/home/fatma/anaconda3/bin:/home/fatma/gems/bin:/home/fatma/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fatma-HP-15-Notebook-PC:@/tmp/.ICE-unix/1085,unix/fatma-HP-15-Notebook-PC:/tmp/.ICE-unix/1085'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ddd3a3e9_35fd_4b46_b63d_f8e8fc34867b'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.475'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/fatma/AUV_ws/install/gate_detection:/home/fatma/AUV_ws/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ar_EG.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GEM_HOME', '/home/fatma/gems'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/fatma/AUV_ws/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('PYTHONPATH', '/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/fatma/AUV_ws/install/interfaces:/home/fatma/AUV_ws/install/gate_detection:/opt/ros/eloquent'), ('NVM_RC_VERSION', '')]), 'shell': False}
+[0.099744] (-) TimerEvent: {}
+[0.200372] (-) TimerEvent: {}
+[0.300800] (-) TimerEvent: {}
+[0.401296] (-) TimerEvent: {}
+[0.501719] (-) TimerEvent: {}
+[0.602203] (-) TimerEvent: {}
+[0.702618] (-) TimerEvent: {}
+[0.803044] (-) TimerEvent: {}
+[0.903523] (-) TimerEvent: {}
+[1.004032] (-) TimerEvent: {}
+[1.104590] (-) TimerEvent: {}
+[1.106382] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[1.204772] (-) TimerEvent: {}
+[1.226163] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.226611] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.304953] (-) TimerEvent: {}
+[1.405338] (-) TimerEvent: {}
+[1.505827] (-) TimerEvent: {}
+[1.606392] (-) TimerEvent: {}
+[1.655871] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.706515] (-) TimerEvent: {}
+[1.806906] (-) TimerEvent: {}
+[1.847734] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.907110] (-) TimerEvent: {}
+[2.007548] (-) TimerEvent: {}
+[2.108042] (-) TimerEvent: {}
+[2.208459] (-) TimerEvent: {}
+[2.308939] (-) TimerEvent: {}
+[2.409349] (-) TimerEvent: {}
+[2.509836] (-) TimerEvent: {}
+[2.610264] (-) TimerEvent: {}
+[2.612470] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[2.710374] (-) TimerEvent: {}
+[2.810798] (-) TimerEvent: {}
+[2.911243] (-) TimerEvent: {}
+[3.011691] (-) TimerEvent: {}
+[3.026623] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[3.111798] (-) TimerEvent: {}
+[3.212280] (-) TimerEvent: {}
+[3.266241] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[3.312476] (-) TimerEvent: {}
+[3.340146] (interfaces) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[3.412601] (-) TimerEvent: {}
+[3.513036] (-) TimerEvent: {}
+[3.613489] (-) TimerEvent: {}
+[3.713883] (-) TimerEvent: {}
+[3.814299] (-) TimerEvent: {}
+[3.903654] (interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[3.914400] (-) TimerEvent: {}
+[3.950290] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[3.952480] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[4.014532] (-) TimerEvent: {}
+[4.115042] (-) TimerEvent: {}
+[4.116826] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.117214] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[4.117465] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[4.215234] (-) TimerEvent: {}
+[4.315811] (-) TimerEvent: {}
+[4.416376] (-) TimerEvent: {}
+[4.516872] (-) TimerEvent: {}
+[4.617336] (-) TimerEvent: {}
+[4.717846] (-) TimerEvent: {}
+[4.722749] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.773670] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.818060] (-) TimerEvent: {}
+[4.898045] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.918195] (-) TimerEvent: {}
+[5.018716] (-) TimerEvent: {}
+[5.119120] (-) TimerEvent: {}
+[5.219546] (-) TimerEvent: {}
+[5.319976] (-) TimerEvent: {}
+[5.420404] (-) TimerEvent: {}
+[5.517172] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.520508] (-) TimerEvent: {}
+[5.528967] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/fatma/AUV_ws/build/interfaces\n'}
+[5.609931] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.620643] (-) TimerEvent: {}
+[5.637768] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.720750] (-) TimerEvent: {}
+[5.821446] (-) TimerEvent: {}
+[5.921993] (-) TimerEvent: {}
+[6.022512] (-) TimerEvent: {}
+[6.058793] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[6.074619] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.088474] (interfaces) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.122635] (-) TimerEvent: {}
+[6.166554] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[6.187801] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/gate_location__functions.c.o\x1b[0m\n'}
+[6.222747] (-) TimerEvent: {}
+[6.323308] (-) TimerEvent: {}
+[6.423860] (-) TimerEvent: {}
+[6.524279] (-) TimerEvent: {}
+[6.601578] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.624433] (-) TimerEvent: {}
+[6.724926] (-) TimerEvent: {}
+[6.738010] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.825126] (-) TimerEvent: {}
+[6.901404] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/gate_location__type_support.cpp.o\x1b[0m\n'}
+[6.912472] (interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/dds_fastrtps/gate_location__type_support.cpp.o\x1b[0m\n'}
+[6.925266] (-) TimerEvent: {}
+[7.025787] (-) TimerEvent: {}
+[7.126546] (-) TimerEvent: {}
+[7.227339] (-) TimerEvent: {}
+[7.327848] (-) TimerEvent: {}
+[7.428515] (-) TimerEvent: {}
+[7.529029] (-) TimerEvent: {}
+[7.629568] (-) TimerEvent: {}
+[7.729983] (-) TimerEvent: {}
+[7.830419] (-) TimerEvent: {}
+[7.930896] (-) TimerEvent: {}
+[8.031376] (-) TimerEvent: {}
+[8.131830] (-) TimerEvent: {}
+[8.232281] (-) TimerEvent: {}
+[8.332713] (-) TimerEvent: {}
+[8.433156] (-) TimerEvent: {}
+[8.533636] (-) TimerEvent: {}
+[8.634061] (-) TimerEvent: {}
+[8.734563] (-) TimerEvent: {}
+[8.835048] (-) TimerEvent: {}
+[8.935551] (-) TimerEvent: {}
+[9.036043] (-) TimerEvent: {}
+[9.136604] (-) TimerEvent: {}
+[9.237249] (-) TimerEvent: {}
+[9.337946] (-) TimerEvent: {}
+[9.438701] (-) TimerEvent: {}
+[9.539343] (-) TimerEvent: {}
+[9.640057] (-) TimerEvent: {}
+[9.740744] (-) TimerEvent: {}
+[9.841192] (-) TimerEvent: {}
+[9.941609] (-) TimerEvent: {}
+[10.042049] (-) TimerEvent: {}
+[10.142690] (-) TimerEvent: {}
+[10.243280] (-) TimerEvent: {}
+[10.343780] (-) TimerEvent: {}
+[10.444276] (-) TimerEvent: {}
+[10.544726] (-) TimerEvent: {}
+[10.645215] (-) TimerEvent: {}
+[10.745684] (-) TimerEvent: {}
+[10.846291] (-) TimerEvent: {}
+[10.946829] (-) TimerEvent: {}
+[11.047482] (-) TimerEvent: {}
+[11.148209] (-) TimerEvent: {}
+[11.249121] (-) TimerEvent: {}
+[11.349938] (-) TimerEvent: {}
+[11.450549] (-) TimerEvent: {}
+[11.551198] (-) TimerEvent: {}
+[11.652038] (-) TimerEvent: {}
+[11.752861] (-) TimerEvent: {}
+[11.853334] (-) TimerEvent: {}
+[11.953712] (-) TimerEvent: {}
+[12.054139] (-) TimerEvent: {}
+[12.154613] (-) TimerEvent: {}
+[12.255109] (-) TimerEvent: {}
+[12.355457] (-) TimerEvent: {}
+[12.405753] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[12.455584] (-) TimerEvent: {}
+[12.555957] (-) TimerEvent: {}
+[12.656474] (-) TimerEvent: {}
+[12.756993] (-) TimerEvent: {}
+[12.857487] (-) TimerEvent: {}
+[12.923163] (interfaces) StdoutLine: {'line': b'[ 27%] Built target interfaces__rosidl_generator_c\n'}
+[12.957609] (-) TimerEvent: {}
+[13.058265] (-) TimerEvent: {}
+[13.158920] (-) TimerEvent: {}
+[13.220011] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.249345] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.259024] (-) TimerEvent: {}
+[13.308474] (interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.345430] (interfaces) StdoutLine: {'line': b'[ 37%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[13.359123] (-) TimerEvent: {}
+[13.459509] (-) TimerEvent: {}
+[13.507936] (interfaces) StdoutLine: {'line': b'[ 37%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.531475] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.550645] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.559611] (-) TimerEvent: {}
+[13.660774] (-) TimerEvent: {}
+[13.762009] (-) TimerEvent: {}
+[13.764370] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.794158] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/gate_location__type_support.c.o\x1b[0m\n'}
+[13.837057] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.864687] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[13.865017] (-) TimerEvent: {}
+[13.965298] (-) TimerEvent: {}
+[14.051095] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[14.065418] (-) TimerEvent: {}
+[14.070598] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/gate_location__type_support.cpp.o\x1b[0m\n'}
+[14.125636] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[14.159365] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/gate_location__type_support_c.cpp.o\x1b[0m\n'}
+[14.165553] (-) TimerEvent: {}
+[14.266147] (-) TimerEvent: {}
+[14.367027] (-) TimerEvent: {}
+[14.467805] (-) TimerEvent: {}
+[14.559199] (interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.567914] (-) TimerEvent: {}
+[14.622338] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.668037] (-) TimerEvent: {}
+[14.675612] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[14.725396] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[14.748237] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.768162] (-) TimerEvent: {}
+[14.868672] (-) TimerEvent: {}
+[14.969247] (-) TimerEvent: {}
+[15.069845] (-) TimerEvent: {}
+[15.070643] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[15.082958] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/gate_location__type_support.cpp.o\x1b[0m\n'}
+[15.115349] (interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.167411] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces__rosidl_typesupport_c\n'}
+[15.169961] (-) TimerEvent: {}
+[15.190534] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces\n'}
+[15.209851] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.270105] (-) TimerEvent: {}
+[15.370548] (-) TimerEvent: {}
+[15.471058] (-) TimerEvent: {}
+[15.571545] (-) TimerEvent: {}
+[15.672021] (-) TimerEvent: {}
+[15.761508] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__py\n'}
+[15.772149] (-) TimerEvent: {}
+[15.832711] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[15.866228] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_gate_location_s.c.o\x1b[0m\n'}
+[15.872264] (-) TimerEvent: {}
+[15.972718] (-) TimerEvent: {}
+[16.073174] (-) TimerEvent: {}
+[16.173643] (-) TimerEvent: {}
+[16.274191] (-) TimerEvent: {}
+[16.374611] (-) TimerEvent: {}
+[16.382125] (interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[16.447027] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces__python\n'}
+[16.474754] (-) TimerEvent: {}
+[16.481368] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[16.509321] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[16.527368] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.536295] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.574883] (-) TimerEvent: {}
+[16.660792] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.661133] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.675024] (-) TimerEvent: {}
+[16.729784] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[16.731988] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.737612] (interfaces) CommandEnded: {'returncode': 0}
+[16.775182] (-) TimerEvent: {}
+[16.794982] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[16.802213] (interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/fatma/AUV_ws/build/interfaces', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/fatma/AUV_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fatma'), ('LC_TIME', 'ar_EG.UTF-8'), ('TEXTDOMAIN', 'gdm'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1586'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/fatma/AUV_ws/install/interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/fatma'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/fatma'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/fatma/.nvm'), ('_colcon_cd_root', '/home/fatma/ros2_install'), ('COLCON_PREFIX_PATH', '/home/fatma/AUV_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'fatma'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '103369dc8361658bbf160276171121399600000010850007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'fatma'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/home/fatma/anaconda3/bin:/home/fatma/gems/bin:/home/fatma/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fatma-HP-15-Notebook-PC:@/tmp/.ICE-unix/1085,unix/fatma-HP-15-Notebook-PC:/tmp/.ICE-unix/1085'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ddd3a3e9_35fd_4b46_b63d_f8e8fc34867b'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.475'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/fatma/AUV_ws/install/gate_detection:/home/fatma/AUV_ws/install/interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ar_EG.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GEM_HOME', '/home/fatma/gems'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/fatma/AUV_ws/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('PYTHONPATH', '/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/fatma/AUV_ws/install/interfaces:/home/fatma/AUV_ws/install/gate_detection:/opt/ros/eloquent'), ('NVM_RC_VERSION', '')]), 'shell': False}
+[16.847703] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[16.849731] (interfaces) StdoutLine: {'line': b'[ 13%] Built target interfaces__rosidl_generator_c\n'}
+[16.866558] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.868605] (interfaces) StdoutLine: {'line': b'[ 34%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[16.871437] (interfaces) StdoutLine: {'line': b'[ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[16.875303] (-) TimerEvent: {}
+[16.890229] (interfaces) StdoutLine: {'line': b'[ 55%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[16.890811] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[16.909514] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces__rosidl_typesupport_c\n'}
+[16.921841] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces\n'}
+[16.936523] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__py\n'}
+[16.962878] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces__python\n'}
+[16.975428] (-) TimerEvent: {}
+[16.984740] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.985116] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[16.995390] (interfaces) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[17.002995] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.003493] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[17.004285] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[17.005185] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[17.005621] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[17.005962] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[17.013149] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[17.014580] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[17.015133] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces\n'}
+[17.015464] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg\n'}
+[17.015676] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.015857] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv\n'}
+[17.015998] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_fastrtps_c.h\n'}
+[17.016767] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[17.018030] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.018632] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces\n'}
+[17.019010] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg\n'}
+[17.019291] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.019598] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv\n'}
+[17.019850] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__functions.c\n'}
+[17.020058] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__functions.h\n'}
+[17.020266] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__type_support.h\n'}
+[17.020471] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location.h\n'}
+[17.020727] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__struct.h\n'}
+[17.020941] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[17.021565] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[17.022144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces\n'}
+[17.022474] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg\n'}
+[17.022621] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.022804] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv\n'}
+[17.022920] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.023029] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/dds_fastrtps\n'}
+[17.028975] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.029780] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.030472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces\n'}
+[17.031190] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv\n'}
+[17.031804] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location.hpp\n'}
+[17.032136] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__struct.hpp\n'}
+[17.032383] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__traits.hpp\n'}
+[17.032618] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces\n'}
+[17.032827] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg\n'}
+[17.033024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.033220] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv\n'}
+[17.033419] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_introspection_c.h\n'}
+[17.033613] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__type_support.c\n'}
+[17.037638] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.038702] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.039294] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces\n'}
+[17.039559] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv\n'}
+[17.039834] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__type_support.cpp\n'}
+[17.040040] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.041347] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.042383] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.042976] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[17.043284] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[17.043732] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py\n'}
+[17.075612] (-) TimerEvent: {}
+[17.116814] (interfaces) StdoutLine: {'line': b"Compiling '/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py'...\n"}
+[17.123403] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv\n'}
+[17.123789] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_gate_location.py\n'}
+[17.124008] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv/__init__.py\n'}
+[17.124234] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_gate_location_s.c\n'}
+[17.125820] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[17.127487] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[17.153220] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[17.155200] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[17.156364] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[17.157559] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[17.158050] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation.idl\n'}
+[17.158652] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation.srv\n'}
+[17.159199] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation_Request.msg\n'}
+[17.159561] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation_Response.msg\n'}
+[17.160229] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[17.160644] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[17.161258] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[17.161624] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[17.162246] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[17.162620] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[17.163148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[17.163520] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[17.163853] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[17.164237] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[17.164824] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[17.165427] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[17.165792] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[17.166179] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.166573] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.166968] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[17.167153] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[17.167393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/package.xml\n'}
+[17.172344] (interfaces) CommandEnded: {'returncode': 0}
+[17.175755] (-) TimerEvent: {}
+[17.276421] (-) TimerEvent: {}
+[17.279800] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[17.281766] (-) EventReactorShutdown: {}

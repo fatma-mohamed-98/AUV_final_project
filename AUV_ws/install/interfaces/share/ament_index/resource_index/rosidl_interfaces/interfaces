@@ -1,0 +1,4 @@
+srv/GateLocation.idl
+srv/GateLocation.srv
+srv/GateLocation_Request.msg
+srv/GateLocation_Response.msg

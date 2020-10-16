@@ -1,0 +1,26 @@
+[0.343s] Invoking command in '/home/fatma/AUV_ws/src/gate_detection': AMENT_PREFIX_PATH=/home/fatma/AUV_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fatma/AUV_ws/install/interfaces LD_LIBRARY_PATH=/home/fatma/AUV_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gate_detection build --build-base /home/fatma/AUV_ws/build/gate_detection/build install --prefix /home/fatma/AUV_ws/install/gate_detection --record /home/fatma/AUV_ws/build/gate_detection/install.log --single-version-externally-managed
+[0.636s] running egg_info
+[0.637s] writing ../../build/gate_detection/gate_detection.egg-info/PKG-INFO
+[0.637s] writing dependency_links to ../../build/gate_detection/gate_detection.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../../build/gate_detection/gate_detection.egg-info/entry_points.txt
+[0.638s] writing requirements to ../../build/gate_detection/gate_detection.egg-info/requires.txt
+[0.638s] writing top-level names to ../../build/gate_detection/gate_detection.egg-info/top_level.txt
+[0.680s] reading manifest file '../../build/gate_detection/gate_detection.egg-info/SOURCES.txt'
+[0.682s] writing manifest file '../../build/gate_detection/gate_detection.egg-info/SOURCES.txt'
+[0.682s] running build
+[0.683s] running build_py
+[0.683s] copying gate_detection/server_node.py -> /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection
+[0.683s] running install
+[0.684s] running install_lib
+[0.686s] copying /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection/server_node.py -> /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection
+[0.687s] byte-compiling /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/server_node.py to server_node.cpython-36.pyc
+[0.688s] running install_data
+[0.689s] copying package.xml -> /home/fatma/AUV_ws/install/gate_detection/share/gate_detection
+[0.689s] running install_egg_info
+[0.693s] removing '/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection-0.0.0-py3.6.egg-info' (and everything under it)
+[0.693s] Copying ../../build/gate_detection/gate_detection.egg-info to /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection-0.0.0-py3.6.egg-info
+[0.696s] running install_scripts
+[0.721s] Installing client script to /home/fatma/AUV_ws/install/gate_detection/lib/gate_detection
+[0.722s] Installing service script to /home/fatma/AUV_ws/install/gate_detection/lib/gate_detection
+[0.722s] writing list of installed files to '/home/fatma/AUV_ws/build/gate_detection/install.log'
+[0.756s] Invoked command in '/home/fatma/AUV_ws/src/gate_detection' returned '0': AMENT_PREFIX_PATH=/home/fatma/AUV_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fatma/AUV_ws/install/interfaces LD_LIBRARY_PATH=/home/fatma/AUV_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages:/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gate_detection build --build-base /home/fatma/AUV_ws/build/gate_detection/build install --prefix /home/fatma/AUV_ws/install/gate_detection --record /home/fatma/AUV_ws/build/gate_detection/install.log --single-version-externally-managed

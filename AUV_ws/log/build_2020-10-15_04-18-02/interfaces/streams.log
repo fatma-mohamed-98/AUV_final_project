@@ -1,0 +1,82 @@
+[0.024s] Invoking command in '/home/fatma/AUV_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/fatma/AUV_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/fatma/AUV_ws/install/interfaces
+[0.146s] -- The C compiler identification is GNU 7.5.0
+[0.273s] -- The CXX compiler identification is GNU 7.5.0
+[0.298s] -- Check for working C compiler: /usr/bin/cc
+[0.387s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.393s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.570s] -- Detecting C compile features
+[0.855s] -- Detecting C compile features - done
+[0.873s] -- Check for working CXX compiler: /usr/bin/c++
+[0.981s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.991s] -- Detecting CXX compiler ABI info
+[1.098s] -- Detecting CXX compiler ABI info - done
+[1.190s] -- Detecting CXX compile features
+[1.758s] -- Detecting CXX compile features - done
+[1.766s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.816s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.817s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.119s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[2.254s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[2.526s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[2.597s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[2.678s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[3.084s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[3.236s] CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.236s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.237s]   interfaces --arguments-file
+[3.237s]   /home/fatma/AUV_ws/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[3.237s]   --output-dir /home/fatma/AUV_ws/build/interfaces/rosidl_adapter/interfaces
+[3.237s]   --output-file
+[3.238s]   /home/fatma/AUV_ws/build/interfaces/rosidl_adapter/interfaces.idls)
+[3.238s]   returned error code 1:
+[3.238s] 
+[3.238s]   Traceback (most recent call last):
+[3.238s] 
+[3.238s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[3.238s]       "__main__", mod_spec)
+[3.238s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[3.239s]       exec(code, run_globals)
+[3.239s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.239s]       sys.exit(main())
+[3.239s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[3.239s]       pathlib.Path(relative_path), output_dir)
+[3.239s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 25, in convert_to_idl
+[3.239s]       package_dir, package_name, interface_file, output_dir / 'srv')
+[3.239s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[3.239s]       srv = parse_service_string(package_name, input_file.stem, content)
+[3.240s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 837, in parse_service_string
+[3.240s]       pkg_name, srv_name + SERVICE_REQUEST_MESSAGE_SUFFIX, request_message_string)
+[3.240s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 531, in parse_message_string
+[3.240s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[3.240s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 382, in __init__
+[3.240s]       pkg_name + PACKAGE_NAME_MESSAGE_TYPE_SEPARATOR + msg_name)
+[3.240s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 200, in __init__
+[3.240s]       self.type, VALID_MESSAGE_NAME_PATTERN.pattern))
+[3.240s] 
+[3.240s]   rosidl_adapter.parser.InvalidResourceName: 'gate_location_Request' is an
+[3.241s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.241s] 
+[3.241s] Call Stack (most recent call first):
+[3.241s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.241s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[3.241s] 
+[3.241s] 
+[3.242s] -- Configuring incomplete, errors occurred!
+[3.242s] See also "/home/fatma/AUV_ws/build/interfaces/CMakeFiles/CMakeOutput.log".
+[3.254s] Invoked command in '/home/fatma/AUV_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/fatma/AUV_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/fatma/AUV_ws/install/interfaces
+[3.267s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/local/bin/cmake', '--build', '/home/fatma/AUV_ws/build/interfaces', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

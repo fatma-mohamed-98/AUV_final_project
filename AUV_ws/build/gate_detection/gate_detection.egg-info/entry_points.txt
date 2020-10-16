@@ -1,0 +1,4 @@
+[console_scripts]
+client = gate_detection.client_node:main
+service = gate_detection.server_node:main
+

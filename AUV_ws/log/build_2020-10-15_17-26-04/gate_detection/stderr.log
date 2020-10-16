@@ -1,0 +1,5 @@
+  File "/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/server_node.py", line 186
+    x==0 and y==0:0
+    ^
+SyntaxError: invalid syntax
+

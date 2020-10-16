@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/gate_detection/gate_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/gate_detection/gate_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/gate_detection/gate_detection.egg-info/entry_points.txt
+writing requirements to ../../build/gate_detection/gate_detection.egg-info/requires.txt
+writing top-level names to ../../build/gate_detection/gate_detection.egg-info/top_level.txt
+reading manifest file '../../build/gate_detection/gate_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/gate_detection/gate_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gate_detection/serve_node.py -> /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection
+copying gate_detection/client_node.py -> /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection
+running install
+running install_lib
+copying /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection/serve_node.py -> /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection
+copying /home/fatma/AUV_ws/build/gate_detection/build/lib/gate_detection/client_node.py -> /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection
+byte-compiling /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/serve_node.py to serve_node.cpython-36.pyc
+byte-compiling /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection/client_node.py to client_node.cpython-36.pyc
+running install_data
+copying package.xml -> /home/fatma/AUV_ws/install/gate_detection/share/gate_detection
+running install_egg_info
+removing '/home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/gate_detection/gate_detection.egg-info to /home/fatma/AUV_ws/install/gate_detection/lib/python3.6/site-packages/gate_detection-0.0.0-py3.6.egg-info
+running install_scripts
+Installing client script to /home/fatma/AUV_ws/install/gate_detection/lib/gate_detection
+Installing service script to /home/fatma/AUV_ws/install/gate_detection/lib/gate_detection
+writing list of installed files to '/home/fatma/AUV_ws/build/gate_detection/install.log'

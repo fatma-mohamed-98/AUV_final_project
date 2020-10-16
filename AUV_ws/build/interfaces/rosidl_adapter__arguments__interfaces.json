@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/fatma/AUV_ws/src/interfaces:srv/GateLocation.srv"
+  ]
+}

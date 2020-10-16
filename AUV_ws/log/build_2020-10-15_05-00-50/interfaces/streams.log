@@ -1,0 +1,179 @@
+[0.021s] Invoking command in '/home/fatma/AUV_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --build /home/fatma/AUV_ws/build/interfaces -- -j4 -l4
+[0.079s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.126s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.127s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.406s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[0.512s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[0.828s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.226s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.338s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.365s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.704s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.750s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.752s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[1.804s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.804s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.804s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[2.176s] -- Added test 'lint_cmake' to check CMake code style
+[2.180s] -- Added test 'xmllint' to check XML markup files
+[2.196s] -- Configuring done
+[2.377s] -- Generating done
+[2.394s] -- Build files have been written to: /home/fatma/AUV_ws/build/interfaces
+[2.418s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.425s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.798s] [  6%] Built target interfaces__cpp
+[2.807s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.807s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.848s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[2.872s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/gate_location__functions.c.o[0m
+[2.924s] [ 20%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.965s] [ 20%] Built target interfaces__rosidl_generator_c
+[2.972s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.362s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[3.375s] [ 27%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/gate_location__type_support.c.o[0m
+[3.413s] [ 31%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[3.448s] [ 31%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.466s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.481s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/gate_location__type_support.cpp.o[0m
+[3.504s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.523s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/dds_fastrtps/gate_location__type_support.cpp.o[0m
+[3.832s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.904s] [ 41%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[4.043s] [ 44%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.134s] [ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[4.142s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.142s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.475s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[4.492s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/gate_location__type_support.cpp.o[0m
+[4.552s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.587s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/gate_location__type_support_c.cpp.o[0m
+[5.050s] [ 62%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[5.060s] [ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.161s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[5.170s] [ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[5.176s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.464s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[5.476s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/gate_location__type_support.cpp.o[0m
+[5.506s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[5.563s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[5.574s] [ 75%] Built target interfaces
+[5.587s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.118s] [ 79%] Built target interfaces__py
+[6.126s] [35m[1mScanning dependencies of target interfaces__python[0m
+[6.146s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_gate_location_s.c.o[0m
+[6.245s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[6.315s] [ 86%] Built target interfaces__python
+[6.323s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[6.325s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.344s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.352s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.456s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[6.463s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[6.525s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[6.532s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.539s] Invoked command in '/home/fatma/AUV_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --build /home/fatma/AUV_ws/build/interfaces -- -j4 -l4
+[6.607s] Invoking command in '/home/fatma/AUV_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --build /home/fatma/AUV_ws/build/interfaces --target install -- -j4 -l4
+[6.651s] [  3%] Built target interfaces__cpp
+[6.652s] [ 13%] Built target interfaces__rosidl_generator_c
+[6.669s] [ 24%] Built target interfaces__rosidl_typesupport_introspection_c
+[6.670s] [ 34%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[6.675s] [ 44%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[6.698s] [ 55%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[6.700s] [ 65%] Built target interfaces__rosidl_typesupport_cpp
+[6.715s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[6.728s] [ 75%] Built target interfaces
+[6.740s] [ 79%] Built target interfaces__py
+[6.764s] [ 86%] Built target interfaces__python
+[6.787s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.787s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[6.797s] [36mInstall the project...[0m
+[6.806s] -- Install configuration: ""
+[6.808s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[6.809s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[6.809s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[6.809s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[6.810s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[6.810s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[6.811s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[6.812s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces
+[6.812s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg
+[6.812s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.812s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv
+[6.813s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_fastrtps_c.h
+[6.813s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[6.814s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.815s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces
+[6.815s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg
+[6.815s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.816s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv
+[6.816s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__functions.c
+[6.816s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__functions.h
+[6.816s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__type_support.h
+[6.816s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location.h
+[6.817s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__struct.h
+[6.817s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[6.817s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[6.818s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces
+[6.818s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg
+[6.818s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.819s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv
+[6.819s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_fastrtps_cpp.hpp
+[6.819s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/dds_fastrtps
+[6.820s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.820s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.821s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces
+[6.821s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv
+[6.821s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location.hpp
+[6.822s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__struct.hpp
+[6.822s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__traits.hpp
+[6.822s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces
+[6.823s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg
+[6.823s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.823s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv
+[6.823s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_introspection_c.h
+[6.823s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__type_support.c
+[6.824s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[6.825s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.825s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces
+[6.826s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv
+[6.826s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__type_support.cpp
+[6.826s] -- Installing: /home/fatma/AUV_ws/install/interfaces/include/interfaces/srv/gate_location__rosidl_typesupport_introspection_cpp.hpp
+[6.827s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[6.828s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.828s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[6.829s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[6.829s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py
+[6.869s] Compiling '/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py'...
+[6.875s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv
+[6.876s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_gate_location.py
+[6.876s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv/__init__.py
+[6.876s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/srv/_gate_location_s.c
+[6.877s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[6.878s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[6.880s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[6.881s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[6.882s] -- Installing: /home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__python.so
+[6.883s] -- Set runtime path of "/home/fatma/AUV_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[6.883s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation.idl
+[6.884s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation.srv
+[6.884s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation_Request.msg
+[6.885s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/srv/GateLocation_Response.msg
+[6.885s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[6.885s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[6.886s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[6.886s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[6.886s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/path.sh
+[6.887s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/environment/path.dsv
+[6.887s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.bash
+[6.887s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.sh
+[6.888s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.zsh
+[6.888s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/local_setup.dsv
+[6.888s] -- Installing: /home/fatma/AUV_ws/install/interfaces/share/interfaces/package.dsv
+[6.889s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[6.889s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[6.889s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.890s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.890s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[6.891s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[6.891s] -- Up-to-date: /home/fatma/AUV_ws/install/interfaces/share/interfaces/package.xml
+[6.896s] Invoked command in '/home/fatma/AUV_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --build /home/fatma/AUV_ws/build/interfaces --target install -- -j4 -l4
