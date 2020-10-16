@@ -15,6 +15,7 @@ class MinimalClientAsync(Node):
 
     def send_request(self):
         self.req.image_path = str(sys.argv[1])
+            
         self.future = self.cli.call_async(self.req)
 
 

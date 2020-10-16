@@ -205,21 +205,14 @@ class MinimalService(Node):
            
 
     def find_gate_location_callback(self, request, response):
-        if request.image_path.strip():
-            path = '/home/fatma/AUV_ws/src/frame112.jpg'
-        else:
-            path = request.image_path
+        path = '/home/fatma/AUV_ws/src/frame112.jpg'
+        # path = request.image_path
         img = cv2.imread(path)
         imgContour = img.copy()
         img = cv2.medianBlur(img, 23)
         imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
         self.getContours(imgHSV, imgContour)
         self.block(self.x_center,self.y_center)
-
-        print(self.x_center,
-        self.y_center,
-        self.block_number)
-
 
         if self.block_number==1:
             response.gate_location='Move one block up, then one block left'
@@ -242,6 +235,8 @@ class MinimalService(Node):
         else:
             response.gate_location='gate not exist here'                          
         self.get_logger().info('Incoming request\na:%s' % (request.image_path))
+        print(response.gate_location,self.block_number)
+
         imgplot = plt.imshow(imgContour)
         plt.show()                                                    
         return response   
