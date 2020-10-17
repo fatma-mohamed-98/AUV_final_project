@@ -1,4 +1,4 @@
-# useful command to build 
+# useful command to build and launch
 - source ROS 2 (source /opt/ros/eloquent/setup.bash)
 - navigate your ws (cd ~/AUV_ws)
 - build ws packages (colcon build --packages-select <pkg-name>)or (colcon build)to build all packages at once
