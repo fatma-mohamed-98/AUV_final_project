@@ -49,10 +49,10 @@ class MinimalService(Node):
 
 
     def getContours(self,imgHSV, imgContour):
-        hight=imgHSV.shape[0]
-        width=imgHSV.shape[1]
-        self.vlines=[int(width/3),int(2*width/3),int(width) ]
-        self.hlines = [int(hight / 3), int(2 * hight / 3),int (hight)]
+        self.hight=imgHSV.shape[0]
+        self.width=imgHSV.shape[1]
+        self.vlines=[int(self.width/3),int(2*self.width/3),int(self.width) ]
+        self.hlines = [int(self.hight / 3), int(2 * self.hight / 3),int (self.hight)]
 
         self.x1=self.vlines[0]
         self.x2=self.vlines[1]
@@ -60,9 +60,9 @@ class MinimalService(Node):
         self.y2=self.hlines[0]
 
         for line in self.vlines:
-            cv2.line(imgContour, (line, 0), (line, hight), (250,250, 250), thickness=2)
+            cv2.line(imgContour, (line, 0), (line, self.hight), (250,250, 250), thickness=2)
         for line in self.hlines:
-            cv2.line(imgContour, (0, line), (width, line), (250, 250, 250), thickness=2)
+            cv2.line(imgContour, (0, line), (self.width, line), (250, 250, 250), thickness=2)
 
         flage = True
         Nmask = self.nearGate(imgHSV)
@@ -156,22 +156,6 @@ class MinimalService(Node):
                         self.x_center=int( 0.5*self.x_arr[bindx]+0.5*self.x_arr[indx1])                    
 
 #*******************************************************************************************
-    
-    #assume AUV in front of block 5
-    # def motion(self,i):
-    #     switcher={
-    #         0:'gate not exist here ',
-    #         1:'Move one block up, then one block left',
-    #         2:'Move one block up',
-    #         3:'Move one block up, then one block right',
-    #         4:'Move one block left',
-    #         5:'Move forward, the gate exist here',
-    #         6:'Move one block right',
-    #         7:'Move one block down, then one block left',
-    #         8:'Move one block down',
-    #         9:'Move one block down, then one block right'
-    #         }
-    #     # return switcher.get(i,"Invalid")
 
     def block(self,x,y):
         if x==0 and y==0:
@@ -205,7 +189,8 @@ class MinimalService(Node):
            
 
     def find_gate_location_callback(self, request, response):
-        path = '/home/fatma/AUV_ws/src/frame112.jpg'
+        #uncomment the default path to launch with launch file and comment (path = request.image_path)
+        path = '/home/fatma/AUV_ws/src/gate.jpg'
         # path = request.image_path
         img = cv2.imread(path)
         imgContour = img.copy()
@@ -223,7 +208,7 @@ class MinimalService(Node):
         elif self.block_number==4:
             response.gate_location='Move one block left'
         elif self.block_number==5:
-            response.gate_location='Move forward, the gate exist here'
+            response.gate_location='Move forward, gate exist here'
         elif self.block_number==6: 
             response.gate_location='Move one block right'
         elif self.block_number==7:
@@ -237,6 +222,9 @@ class MinimalService(Node):
         self.get_logger().info('Incoming request\na:%s' % (request.image_path))
         print(response.gate_location,self.block_number)
 
+        cv2.putText(imgContour, response.gate_location+',block'+str(self.block_number),
+                                    (int(self.width/10), int(self.hight/10)), cv2.Formatter_FMT_MATLAB, 4,
+                                    (0, 0, 0), 5)
         imgplot = plt.imshow(imgContour)
         plt.show()                                                    
         return response   
