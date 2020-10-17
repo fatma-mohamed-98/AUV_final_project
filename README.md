@@ -6,6 +6,7 @@
 - launch the launch file (ros2 launch gate_detection gate_detection.launch.py)
 # Note
 - the defualt client request here is the image path '/home/fatma/AUV_ws/src/frame112.jpg'
-- to run the client node with your image path request:\
-1-open new terminal then source the workspace (. install/setup.bash)\
-2-ros2 run gate_detection client <img_path>
+- to run the client node with your image path request:
+- open two terminals then source the workspace at each one (. install/setup.bash)
+- at the first terminal run service node (ros2 run gate_detection service)
+- then in the second terminal to run client node (ros2 run gate_detection client <img_path>)
